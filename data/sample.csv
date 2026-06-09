@@ -1,0 +1,11 @@
+Employee_ID,Name,Age,Department,Salary,City
+101,John,25,IT,45000,Mumbai
+102,Alice,30,HR,52000,Pune
+103,Bob,28,Finance,48000,Delhi
+104,David,35,IT,60000,Chennai
+105,Eva,27,Marketing,50000,Bangalore
+106,John,25,IT,45000,Mumbai
+107,,32,HR,55000,Pune
+108,Chris,,Finance,49000,Delhi
+109,Sophia,29,,51000,Mumbai
+110,Michael,100,IT,700000,Mumbai
