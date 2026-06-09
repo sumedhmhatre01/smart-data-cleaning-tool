@@ -1,4 +1,5 @@
 import numpy as np
+from pandas.api.types import is_numeric_dtype
 
 
 def generate_suggestions(
@@ -19,10 +20,7 @@ def generate_suggestions(
 
         if missing_count > 0:
 
-            if np.issubdtype(
-                df[column].dropna().dtype,
-                np.number
-            ):
+            if is_numeric_dtype(df[column]):
 
                 suggestions.append(
                     f"Column '{column}' contains {missing_count} missing values. Fill using median."
